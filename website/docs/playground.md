@@ -30,5 +30,4 @@ yarn example ios
 
 > If all goes well you will see something like:
 
-> ![Stopped Example](../static/img/stopped.jpeg)
-> ![Stopped Example](../static/img/recording.jpeg)
+> ![Stopped Example](../static/img/stopped.jpeg) > ![Stopped Example](../static/img/recording.jpeg)

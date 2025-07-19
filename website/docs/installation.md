@@ -12,7 +12,8 @@ npm install react-native-pitch-detector
 
 ### iOS
 
-After install you need run: 
+After install you need run:
+
 ```sh
 (cd ios && pod install)
 ```
@@ -20,4 +21,3 @@ After install you need run:
 ### Android
 
 > **Version compatibility**: `react-native@>=0.66` is required.
-

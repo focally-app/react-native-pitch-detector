@@ -23,20 +23,21 @@
 <p align="center"> High performance real time pitch detection.</p>
 
 ## [Documentation](https://1fabiopereira.github.io/react-native-pitch-detector/)
-- ### [Getting Started](https://1fabiopereira.github.io/react-native-pitch-detector/docs/before-you-start)
-    - [Before you start](https://1fabiopereira.github.io/react-native-pitch-detector/docs/before-you-start)
-    
-    - [Installation](https://1fabiopereira.github.io/react-native-pitch-detector/docs/installation)
-    
-    - [Usage](https://1fabiopereira.github.io/react-native-pitch-detector/docs/usage)
 
-     - [Playground](https://1fabiopereira.github.io/react-native-pitch-detector/docs/playground)
+- ### [Getting Started](https://1fabiopereira.github.io/react-native-pitch-detector/docs/before-you-start)
+
+  - [Before you start](https://1fabiopereira.github.io/react-native-pitch-detector/docs/before-you-start)
+
+  - [Installation](https://1fabiopereira.github.io/react-native-pitch-detector/docs/installation)
+
+  - [Usage](https://1fabiopereira.github.io/react-native-pitch-detector/docs/usage)
+
+  - [Playground](https://1fabiopereira.github.io/react-native-pitch-detector/docs/playground)
 
 - ### [Meta](https://1fabiopereira.github.io/react-native-pitch-detector/docs/contributing)
-    - [Contributing](https://1fabiopereira.github.io/react-native-pitch-detector/docs/contributing)
 
-    - [Code of Conduct](https://1fabiopereira.github.io/react-native-pitch-detector/docs/code-of-conduct)
+  - [Contributing](https://1fabiopereira.github.io/react-native-pitch-detector/docs/contributing)
 
-    - [License](https://1fabiopereira.github.io/react-native-pitch-detector/docs/license)
+  - [Code of Conduct](https://1fabiopereira.github.io/react-native-pitch-detector/docs/code-of-conduct)
 
-
+  - [License](https://1fabiopereira.github.io/react-native-pitch-detector/docs/license)

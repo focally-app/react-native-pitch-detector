@@ -27,7 +27,7 @@ jobs:
   gh-release:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Git checkout
         uses: actions/checkout@v23

@@ -1,32 +1,15 @@
 import type { NativeModule, EmitterSubscription } from 'react-native';
 import type { Float, Int32 } from 'react-native/Libraries/Types/CodegenTypes';
-import { PermissionStatus, Rationale } from 'react-native-permissions';
+export type PermissionStatus = 'granted' | 'denied' | 'undetermined';
+export type Rationale = never;
 
-/**
- * Permission handler comparable callback
- */
 export type Comparable = (status: PermissionStatus) => boolean;
 
-/**
- * Permission handler response
- */
-export type Response = Promise<PermissionStatus | boolean | null>;
+export type Response = Promise<boolean | null>;
 
-/**
- * Permission handler
- */
 export type PermissionsHandlers = {
-  /**
-   * Request permission
-   * @returns Promise<PermissionStatus | boolean | null>
-   */
-  RequestPermission: (rationale?: Rationale, compare?: Comparable) => Response;
-
-  /**
-   * Check permission
-   * @returns Promise<PermissionStatus | boolean | null>
-   */
-  CheckPermission: (compare?: Comparable) => Response;
+  RequestPermission: () => Response;
+  CheckPermission: () => Response;
 };
 
 export enum PitchDetectorErrors {

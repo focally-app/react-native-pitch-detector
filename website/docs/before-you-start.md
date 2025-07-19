@@ -11,4 +11,3 @@ If you see something wrong, feel free to report an issue on [Github](https://git
 :open_book: **TarsosDSP** - https://github.com/JorenSix/TarsosDSP
 
 :open_book: **Beethoven** - https://github.com/vadymmarkov/Beethoven
-

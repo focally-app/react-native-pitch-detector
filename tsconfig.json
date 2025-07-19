@@ -2,18 +2,14 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-pitch-detector": [
-        "./src/index"
-      ]
+      "react-native-pitch-detector": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
-    "lib": [
-      "esnext"
-    ],
+    "lib": ["esnext"],
     "module": "esnext",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
@@ -28,8 +24,5 @@
     "strict": true,
     "target": "esnext"
   },
-  "exclude": [
-    "node_modules",
-    "website"
-  ]
+  "exclude": ["node_modules", "website"]
 }

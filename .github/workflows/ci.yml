@@ -11,36 +11,36 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Git checkout
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
+      - name: Git checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
 
-    - name: Use Node.js Version 20.11.x
-      uses: actions/setup-node@v3
-      with:
-        node-version: 20.11.x
+      - name: Use Node.js Version 20.11.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.11.x
 
-    - name: Install dependencies
-      run: yarn install --frozen-lockfile
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
 
-    - name: Type check
-      run: yarn typecheck
+      - name: Type check
+        run: yarn typecheck
 
-    - name: Lint
-      run: yarn lint
+      - name: Lint
+        run: yarn lint
 
-    - name: Check circular dependencies
-      run: yarn circular
+      - name: Check circular dependencies
+        run: yarn circular
 
-    - name: Run Jest Unit Tests
-      run: yarn test
+      - name: Run Jest Unit Tests
+        run: yarn test
 
-    - name: Typescript build
-      run: yarn prepack
+      - name: Typescript build
+        run: yarn prepack
 
-    - name: SonarCloud Scan Typescript
-      uses: SonarSource/sonarcloud-github-action@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      - name: SonarCloud Scan Typescript
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

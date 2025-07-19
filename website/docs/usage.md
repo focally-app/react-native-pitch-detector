@@ -1,6 +1,7 @@
 # Usage
 
 ### API
+
 Below you can see small code snippet that shows how to import and use the main functions.
 
 ```ts
@@ -16,16 +17,16 @@ await PitchDetector.stop(); // Promise<void>
 await PitchDetector.isRecording(); // Promise<true | false>
 
 // To listener results
-const subscription = PitchDetector.addListener(console.log) // { frequency: 440.14782, tone: "C#" }
+const subscription = PitchDetector.addListener(console.log); // { frequency: 440.14782, tone: "C#" }
 
 // To stop listen results
-PitchDetector.removeListener()
-
+PitchDetector.removeListener();
 ```
 
 > You can see a complete implementation at [Playground](./playground.md).
 
 ### Permissions
+
 To use microphone we need give permission to our app, for that we use a [react-native-permissions](https://github.com/zoontek/react-native-permissions) library.
 
 ```shell
@@ -68,5 +69,3 @@ For Android you need change `AndroidManifest.xml`, and add:
 and finally recompile your project both platforms.
 
 > :bulb: In future the idea is remove react-native-permission dependency and develop in house permission manager.
-
-
